@@ -1,1 +1,1 @@
-https://rafalceglinsk.github.io/goit-markup-hw-01/
+https://rafalceglinsk.github.io/goit-markup-hw-02/
