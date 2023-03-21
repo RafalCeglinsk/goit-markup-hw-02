@@ -124,6 +124,10 @@ body {
 	color: var(--text-color-white);
 	cursor: pointer;
 }
+.filter:hover {
+	background-color: var(--hover-color-blue);
+	color: var(--text-color-white);
+}
 .filter:focus {
 	background-color: var(--focus-color-blue);
 	box-shadow: 1px 0px var(--focus-color-blue);
@@ -137,6 +141,8 @@ body {
 	line-height: 1.6;
 	background-color: var(--background-color-white);
 	color: var(--text-color-black);
+	border: 1px;
+	border-radius: 4px;
 }
 img:hover {
 	border: 1px solid;
