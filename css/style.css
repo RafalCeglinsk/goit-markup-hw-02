@@ -1,0 +1,201 @@
+body {
+	font-family: "Raleway", sans-serif;
+
+	font-family: "Roboto", sans-serif;
+	background-color: #ffffff;
+}
+:root {
+	--text-color-blue: rgba(33, 150, 243, 1);
+	--text-color-black: rgba(0, 0, 0, 1);
+	--text-color-grey: rgba(117, 117, 117, 1);
+	--text-color-white: rgba(255, 255, 255, 1);
+	--border-color-blue: rgba(33, 150, 243, 1);
+	--hover-color-blue: rgba(33, 150, 243, 1);
+	--background-color-black: rgba(47, 48, 58, 1);
+	--background-color-blue: rgba(33, 150, 243, 1);
+	--background-color-white: rgba(245, 244, 250, 1);
+	--focus-color-blue: rgba(33, 150, 243, 1);
+}
+.logo-top {
+	color: var(--text-color-blue);
+	font-family: Raleway;
+	font-weight: 700px;
+	font-size: 26px;
+	line-height: 1.2;
+	text-decoration: none;
+}
+.menu-logo-top {
+	color: var(--text-color-black);
+	font-family: Raleway;
+	font-size: 26px;
+	line-height: 1.2;
+	text-decoration: none;
+}
+.menu-logo:hover {
+	color: var(--hover-color-blue);
+}
+.nav {
+	list-style-type: none;
+}
+.nav-item-agencja:hover {
+	color: var(--hover-color-blue);
+}
+.nav-item-agencja:focus {
+	color: var(--focus-color-blue);
+}
+.nav-item-agencja {
+	color: var(--text-color-black);
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+}
+.nav-item-portfolio:hover {
+	color: var(--hover-color-blue);
+}
+.nav-item-portfolio:focus {
+	color: var(--focus-color-blue);
+}
+.nav-item-portfolio {
+	color: var(--text-color-black);
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+}
+.nav-item-kontakty:hover {
+	color: var(--hover-color-blue);
+}
+.nav-item-kontakty:focus {
+	color: var(--focus-color-blue);
+}
+.nav-item-kontakty {
+	color: var(--text-color-black);
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+}
+.email:hover {
+	color: var(--hover-color-blue);
+}
+.email:focus {
+	color: var(--focus-color-blue);
+}
+.email {
+	color: var(--text-color-blue);
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+}
+.phonenumber:hover {
+	color: var(--hover-color-blue);
+}
+.phonenumber:focus {
+	color: var(--focus-color-blue);
+}
+.phonenumber {
+	color: var(--text-color-grey);
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	text-decoration: none;
+}
+.buttons {
+	list-style-type: none;
+}
+.order {
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.6;
+	background-color: var(--background-color-white);
+	color: var(--text-color-black);
+}
+.order:hover {
+	background-color: var(--hover-color-blue);
+	color: var(--text-color-white);
+}
+.order:focus {
+	background-color: var(--focus-color-blue);
+	box-shadow: 1px 0px var(--focus-color-blue);
+	color: var(--text-color-white);
+	cursor: pointer;
+}
+.filter:focus {
+	background-color: var(--focus-color-blue);
+	box-shadow: 1px 0px var(--focus-color-blue);
+	color: var(--text-color-white);
+	cursor: pointer;
+}
+.filter {
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.6;
+	background-color: var(--background-color-white);
+	color: var(--text-color-black);
+}
+img:hover {
+	border: 1px solid;
+	border-color: var(--border-color-blue);
+}
+h1 {
+	font-family: Roboto;
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	background-color: var(--background-color-black);
+	color: var(--text-color-white);
+	text-align: center;
+}
+h2:hover {
+	color: var(--text-color-blue);
+}
+h3:hover {
+	color: var(--text-color-blue);
+}
+h4:hover {
+	color: var(--text-color-blue);
+}
+h4 {
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	color: var(--text-color-black);
+}
+p:hover {
+	color: var(--text-color-blue);
+}
+p {
+	font-family: Roboto;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.8;
+	color: var(--text-color-grey);
+}
+figure:hover {
+	border-color: var(--border-color-blue);
+}
+.logo-bottom {
+	color: var(--text-color-blue);
+	font-family: Raleway;
+	font-weight: 700px;
+	font-size: 26px;
+	line-height: 1.2;
+	text-decoration: none;
+}
+.menu-logo-bottom {
+	color: var(--text-color-white);
+	font-family: Raleway;
+	font-size: 26px;
+	line-height: 1.2;
+	text-decoration: none;
+}
+address {
+	background-color: var(--background-color-black);
+	text-decoration: none;
+}

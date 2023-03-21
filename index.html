@@ -8,23 +8,44 @@
 			content="width=<device-width>, initial-scale=1.0"
 		/>
 		<title>Document</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
 		<header>
-			<a href="#">WebStudio</a>
+			<a class="menu-logo-top" href="#"
+				><span class="logo-top">Web</span>Studio</a
+			>
 			<nav>
-				<ul>
-					<li><a href="#">Agencja</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Kontakt</a></li>
+				<ul class="nav">
+					<li>
+						<a class="nav-item-agencja" href="index.html"
+							>Agencja</a
+						>
+					</li>
+					<li>
+						<a class="nav-item-portfolio" href="portfolio.html"
+							>Portfolio</a
+						>
+					</li>
+					<li><a class="nav-item-kontakty" href="#">Kontakt</a></li>
 				</ul>
 			</nav>
-			<a href="email:info@devstudio.com">info@devstudio.com</a>
-			<a href="tel:+48111111111">+48 111 111 111</a>
+			<a class="email" href="email:info@devstudio.com"
+				>info@devstudio.com</a
+			>
+			<a class="phonenumber" href="tel:+48111111111">+48 111 111 111</a>
 		</header>
 		<main>
-			<h1>Efektywne rozwiazania dla Waszego biznesu</h1>
-			<button type="button">Zamow Usluge</button>
+			<h1>
+				<span>EFEKTYWNE ROZWIAZANIA DLA WASZEGO BIZNESU</span>
+			</h1>
+			<button class="order" type="button">Zamow Usluge</button>
 			<section>
 				<ul>
 					<li>
@@ -85,6 +106,7 @@
 			</section>
 
 			<section>
+				<h3>Nasz zespol</h3>
 				<figure>
 					<img
 						src="./images/Zdjecie1.jpg"
@@ -137,7 +159,9 @@
 		</main>
 		<footer>
 			<address>
-				<a href="#">WebStudio</a>
+				<a class="menu-logo-bottom" href="#"
+					><span class="logo-bottom">Web</span>Studio</a
+				>
 				<p>m. Warszawa, Aleje Jerozolimskie 21</p>
 				<a href="mailto:info@example.com">info@example.com</a> <br />
 				<a href="+48111111111">+48 111 111 111</a>
