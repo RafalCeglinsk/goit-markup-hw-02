@@ -1,6 +1,4 @@
 body {
-	font-family: "Raleway", sans-serif;
-
 	font-family: "Roboto", sans-serif;
 	background-color: #ffffff;
 }
@@ -15,6 +13,9 @@ body {
 	--background-color-blue: rgba(33, 150, 243, 1);
 	--background-color-white: rgba(245, 244, 250, 1);
 	--focus-color-blue: rgba(33, 150, 243, 1);
+}
+a {
+	text-decoration: none;
 }
 .logo-top {
 	color: var(--text-color-blue);
@@ -83,11 +84,11 @@ body {
 	color: var(--focus-color-blue);
 }
 .email {
-	color: var(--text-color-blue);
 	font-family: Roboto;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
+	color: var(--text-color-grey);
 }
 .phonenumber:hover {
 	color: var(--hover-color-blue);
@@ -127,12 +128,12 @@ body {
 .filter:hover {
 	background-color: var(--hover-color-blue);
 	color: var(--text-color-white);
+	cursor: pointer;
 }
 .filter:focus {
 	background-color: var(--focus-color-blue);
 	box-shadow: 1px 0px var(--focus-color-blue);
 	color: var(--text-color-white);
-	cursor: pointer;
 }
 .filter {
 	font-family: Roboto;
@@ -148,7 +149,7 @@ img:hover {
 	border: 1px solid;
 	border-color: var(--border-color-blue);
 }
-h1 {
+.effective {
 	font-family: Roboto;
 	font-weight: 900;
 	font-size: 44px;
@@ -157,26 +158,29 @@ h1 {
 	color: var(--text-color-white);
 	text-align: center;
 }
-h2:hover {
+.text:hover {
 	color: var(--text-color-blue);
 }
-h3:hover {
+.whatwedo:hover {
 	color: var(--text-color-blue);
 }
-h4:hover {
+.ourteam:hover {
 	color: var(--text-color-blue);
 }
-h4 {
+.name:hover {
+	color: var(--text-color-blue);
+}
+.name {
 	font-family: Roboto;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
 	color: var(--text-color-black);
 }
-p:hover {
+.job:hover {
 	color: var(--text-color-blue);
 }
-p {
+.job {
 	font-family: Roboto;
 	font-weight: 400;
 	font-size: 16px;
@@ -201,7 +205,13 @@ figure:hover {
 	line-height: 1.2;
 	text-decoration: none;
 }
-address {
+footer {
 	background-color: var(--background-color-black);
-	text-decoration: none;
+}
+address {
+	font-style: normal;
+	color: var(--text-color-white);
+}
+address:hover {
+	color: var(--text-color-blue);
 }
