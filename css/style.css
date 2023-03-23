@@ -20,7 +20,7 @@ a {
 .logo-top {
 	color: var(--text-color-blue);
 	font-family: Raleway;
-	font-weight: 700px;
+	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.2;
 	text-decoration: none;
@@ -46,7 +46,6 @@ a {
 }
 .nav-item-agencja {
 	color: var(--text-color-black);
-	font-family: Roboto;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
@@ -59,7 +58,6 @@ a {
 }
 .nav-item-portfolio {
 	color: var(--text-color-black);
-	font-family: Roboto;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
@@ -72,7 +70,6 @@ a {
 }
 .nav-item-kontakty {
 	color: var(--text-color-black);
-	font-family: Roboto;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
@@ -84,7 +81,6 @@ a {
 	color: var(--focus-color-blue);
 }
 .email {
-	font-family: Roboto;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
@@ -98,7 +94,6 @@ a {
 }
 .phonenumber {
 	color: var(--text-color-grey);
-	font-family: Roboto;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
@@ -108,20 +103,10 @@ ul {
 	list-style-type: none;
 }
 .order {
-	font-family: Roboto;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.6;
-	background-color: var(--background-color-white);
-	color: var(--text-color-black);
-}
-.order:hover {
-	background-color: var(--hover-color-blue);
-	color: var(--text-color-white);
-}
-.order:focus {
-	background-color: var(--focus-color-blue);
-	box-shadow: 1px 0px var(--focus-color-blue);
+	background-color: var(--background-color-blue);
 	color: var(--text-color-white);
 	cursor: pointer;
 }
@@ -136,7 +121,6 @@ ul {
 	color: var(--text-color-white);
 }
 .filter {
-	font-family: Roboto;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.6;
@@ -145,12 +129,7 @@ ul {
 	border: 1px;
 	border-radius: 4px;
 }
-img:hover {
-	border: 1px solid;
-	border-color: var(--border-color-blue);
-}
 .effective {
-	font-family: Roboto;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
@@ -158,31 +137,19 @@ img:hover {
 	color: var(--text-color-white);
 	text-align: center;
 }
-.text:hover {
-	color: var(--text-color-blue);
-}
 .whatwedo:hover {
 	color: var(--text-color-blue);
 }
 .ourteam:hover {
 	color: var(--text-color-blue);
 }
-.name:hover {
-	color: var(--text-color-blue);
-}
 .name {
-	font-family: Roboto;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
 	color: var(--text-color-black);
 }
-.job:hover {
-	color: var(--text-color-blue);
-}
 .job {
-	font-family: Roboto;
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.8;
 	color: var(--text-color-grey);
@@ -192,15 +159,14 @@ figure:hover {
 }
 .logo-bottom {
 	color: var(--text-color-blue);
-	font-family: Raleway;
-	font-weight: 700px;
+	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.2;
 	text-decoration: none;
 }
 .menu-logo-bottom {
-	color: var(--text-color-white);
 	font-family: Raleway;
+	color: var(--text-color-white);
 	font-size: 26px;
 	line-height: 1.2;
 	text-decoration: none;
@@ -212,6 +178,6 @@ address {
 	font-style: normal;
 	color: var(--text-color-white);
 }
-address:hover {
-	color: var(--text-color-blue);
+.contact {
+	color: var(--text-color-grey);
 }
