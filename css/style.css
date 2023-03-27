@@ -13,6 +13,7 @@ body {
 	--background-color-blue: rgba(33, 150, 243, 1);
 	--background-color-white: rgba(245, 244, 250, 1);
 	--focus-color-blue: rgba(33, 150, 243, 1);
+	--contact-color-grey: rgba(255, 255, 255, 0.6);
 }
 a {
 	text-decoration: none;
@@ -31,6 +32,7 @@ a {
 	font-size: 26px;
 	line-height: 1.2;
 	text-decoration: none;
+	letter-spacing: 0.03em;
 }
 .menu-logo:hover {
 	color: var(--hover-color-blue);
@@ -49,6 +51,7 @@ a {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
+	letter-spacing: 0.02em;
 }
 .nav-item-portfolio:hover {
 	color: var(--hover-color-blue);
@@ -61,6 +64,7 @@ a {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
+	letter-spacing: 0.02em;
 }
 .nav-item-kontakty:hover {
 	color: var(--hover-color-blue);
@@ -73,6 +77,7 @@ a {
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
+	letter-spacing: 0.02em;
 }
 .email:hover {
 	color: var(--hover-color-blue);
@@ -85,6 +90,7 @@ a {
 	font-size: 14px;
 	line-height: 1.14;
 	color: var(--text-color-grey);
+	letter-spacing: 0.02em;
 }
 .phonenumber:hover {
 	color: var(--hover-color-blue);
@@ -98,6 +104,7 @@ a {
 	font-size: 14px;
 	line-height: 1.14;
 	text-decoration: none;
+	letter-spacing: 0.02em;
 }
 ul {
 	list-style-type: none;
@@ -109,6 +116,20 @@ ul {
 	background-color: var(--background-color-blue);
 	color: var(--text-color-white);
 	cursor: pointer;
+}
+.lorem-list {
+	color: var(--text-color-black);
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.1;
+	letter-spacing: 0.03em;
+}
+.text {
+	color: var(--text-color-grey);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
 }
 .filter:hover {
 	background-color: var(--hover-color-blue);
@@ -128,7 +149,24 @@ ul {
 	color: var(--text-color-black);
 	border: 1px;
 	border-radius: 4px;
+	text-align: center;
+	letter-spacing: 0.03em;
 }
+.productname {
+	color: var(--text-color-black);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+.producttype {
+	color: var(--text-color-grey);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.8;
+	letter-spacing: 0.03em;
+}
+
 .effective {
 	font-weight: 900;
 	font-size: 44px;
@@ -136,23 +174,43 @@ ul {
 	background-color: var(--background-color-black);
 	color: var(--text-color-white);
 	text-align: center;
+	letter-spacing: 0.06em;
+}
+.whatwedo {
+	color: var(--text-color-black);
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
 }
 .whatwedo:hover {
 	color: var(--text-color-blue);
+}
+.ourteam {
+	color: var(--text-color-black);
+	font-weight: 700;
+	font-size: 36;
+	line-height: 1.16;
+	text-align: center;
+	letter-spacing: 0.03em;
 }
 .ourteam:hover {
 	color: var(--text-color-blue);
 }
 .name {
-	font-weight: 700;
-	font-size: 18px;
-	line-height: 2;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.18;
 	color: var(--text-color-black);
+	letter-spacing: 0.03em;
 }
 .job {
+	font-weight: 400;
 	font-size: 16px;
-	line-height: 1.8;
+	line-height: 1.18;
 	color: var(--text-color-grey);
+	letter-spacing: 0.03em;
 }
 figure:hover {
 	border-color: var(--border-color-blue);
@@ -179,5 +237,9 @@ address {
 	color: var(--text-color-white);
 }
 .contact {
-	color: var(--text-color-grey);
+	color: var(--contact-color-grey);
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
 }
